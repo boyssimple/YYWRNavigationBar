@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YYWRNavigation"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "导航栏自定义，来源WRNavigationBar"
 
   # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/boyssimple/YYWRNavigationBar"
   spec.source           = { :git => 'https://github.com/boyssimple/YYWRNavigationBar.git', :tag => spec.version.to_s }
-  spec.ios.deployment_target = '8.0'
-  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.ios.deployment_target = '10.0'
+  #spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { "luowei" => "luowei@cqyanyu.com" }
 
 
